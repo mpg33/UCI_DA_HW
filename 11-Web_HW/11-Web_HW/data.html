@@ -1,0 +1,53 @@
+<!-- """
+Data page
+A "Data" page that:
+
+Displays a responsive table containing the data used in the visualizations.
+
+The table must be a bootstrap table component.
+The data must come from exporting the .csv file as HTML, or converting it to HTML. You may use a csv-to-html table conversion tool, e.g. ConvertCSV.
+""" -->
+ 
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Data</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<link rel="stylesheet" href="style.css">
+	</head>
+ 
+	<body>
+		<nav class="navbar navbar-light" style="background-color: #fff;">
+			<div class="box" style="cursor: pointer;" onclick="window.location='index.html';">Latitude</div>
+			<div class="navbar-brand"></div>
+
+			<div class="btn-group"  role="group" aria-label="Button group with nested dropdown">
+  				<div class="btn-group" role="group">
+    				<button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+     				 	Plots
+   				 	</button>
+   					 <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+      					<a class="dropdown-item" href="temperature.html">Max Temperature</a>
+                <a class="dropdown-item" href="humidity.html">Humidity</a>
+                <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+      					<a class="dropdown-item" href="wind_speed.html">Wind Speed</a>
+    				</div>
+  				</div>
+
+  				<a href="comparison.html"> <button type="button" class="btn btn-secondary">Comparison</button> </a>
+  				<a href="data.html"> <button type="button" class="btn btn-secondary">Data</button> </a>
+			</div>
+		</nav>
+
+
+
+		<div class="container">
+      <div class="row" style="margin-top: 20px">
+        <div class="col-md-12" style="background-color: white">
+          <h1 style="color: deepskyblue; margin-top: 20px; font-size: 50px"> Data</h1>
+          <hr>
+          <p>The following includes all the data used in this project.</p>
+        </div> 
+      </div>

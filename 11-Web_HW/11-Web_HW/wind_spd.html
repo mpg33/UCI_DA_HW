@@ -1,0 +1,40 @@
+<!-- """
+3/4
+Four visualization pages, each with:
+
+A descriptive title and heading tag.
+The plot/visualization itself for the selected comparison.
+A paragraph describing the plot and its significance.
+""" -->
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Landing Page</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<link rel="stylesheet" href="style.css">
+    </head>
+    
+     
+<body>
+    <nav class="navbar navbar-light" style="background-color: #fff;">
+        <div class="box" style="cursor: pointer;" onclick="window.location='index.html';"> Latitude</div> 
+        <div class="navbar-brand"></div>
+
+        <div class="btn-group"  role="group" aria-label="Button group with nested dropdown">
+              <div class="btn-group" role="group">
+                <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Plots
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                      <a class="dropdown-item" href="temperature.html">Max Temperature</a>
+            <a class="dropdown-item" href="humidity.html">Humidity</a>
+            <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                      <a class="dropdown-item" href="wind_speed.html">Wind Speed</a>
+                </div>
+              </div>
+
+              <a href="comparison.html"> <button type="button" class="btn btn-secondary">Comparison</button> </a>  
+              <a href="data.html"> <button type="button" class="btn btn-secondary">Data</button> </a>
+        </div>
+    </nav>  

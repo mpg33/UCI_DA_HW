@@ -1,0 +1,76 @@
+body {
+	background: lightgrey;
+}
+.box {
+	position: absolute;
+	background: rgb(20, 157, 143);
+	height: 70px;
+	width: 150px;
+	margin-top: 0px;
+	margin-left: 60px;
+ 
+	text-align: center;
+	vertical-align: middle;
+	line-height: 60px; 
+
+	font-weight: 800;
+	font-size: 25px;
+    color: #fff; 
+}
+
+.navbar {
+	max-height: 70px;
+    min-height: 70px;
+    background: #fff;
+ }
+
+#btnGroupDrop1 {
+	background: white;
+	border-color: white;
+	color: grey; 
+}
+
+.btn-secondary {
+	background: white;
+	border-color: white;
+	color: grey; 
+}
+ 
+.mainImage {
+	float: left;
+	width: 270px;
+	height: 220px
+}
+
+.sideImage {
+	width: 115px;
+	height: 115px
+}
+
+@media only screen and (min-width: 768px) {
+  .sideImage {
+    margin-left: 35px;
+  }
+}
+
+.compImage {
+	width: 440px;
+	height: 250px
+}
+
+@media only screen and (max-width: 999px) {
+	.compImage {
+		width: 340px;
+		height: 200px
+	}
+}
+
+.comp-image-small {
+	width: 500px;
+	height: 280px	
+}
+
+.image-visual {
+	width: 400px;
+	height: 270px
+}
